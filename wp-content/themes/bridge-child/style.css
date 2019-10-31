@@ -1,0 +1,188 @@
+/*
+Theme Name: Bridge Child v18
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+
+body.page-id-33,
+body.page-id-15578,
+body.page-id-15533
+{
+    /*
+	background-image:url('http://91.109.3.126/~victorianceramic/wp-content/uploads/2018/09/bg_08.jpg');
+    background-repeat:repeat;
+    background-attachment:fixed;
+	*/
+}
+
+nav.main_menu {
+height: 50px;
+}
+
+
+div.wpb_text_column.wpb_content_element.zero p {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+
+
+
+body > div.wrapper > div > div > div.content_inner > div.full_width > div > section > div > div > div.left_handside_column.wpb_column.vc_column_container.vc_col-sm-3.vc_col-has-fill > div {
+	background-color: rgba(0, 0, 0, 0.80);
+	/*opacity:0.825; */
+}
+
+
+
+body > div.wrapper > div > div > div > div.full_width > div > section > div > div > div.left_handside_column.wpb_column.vc_column_container.vc_col-sm-3.vc_col-has-fill > div {
+		margin-top: 101px !important;
+		margin-left: 5px !important;
+		padding-top: 30px !important;
+		padding-right: 35px !important;
+		padding-bottom: 30px !important;
+		padding-left: 30px !important;
+		background-position: 0 0 !important;
+		background-repeat: repeat !important;
+}
+
+.pum-container p {
+	color:#000;
+}
+
+.pum-container h4 {
+	color:#000;
+}
+
+.pum-container h3 {
+	color:#000;
+}
+
+.pum-container h2 {
+	color:#000;
+}
+
+
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+/* iPhone 6, 7, & 8 in portrait & landscape STYLES GO HERE */
+
+body > div.wrapper > div > div > div > div.full_width > div > section > div > div > div.left_handside_column.wpb_column.vc_column_container.vc_col-sm-3.vc_col-has-fill > div {
+		margin-top: 0px !important;
+		margin-left: 0px !important; 
+		padding-top: 30px !important;  
+		padding-right: 35px !important;
+		padding-bottom: 30px !important;
+		padding-left: 30px !important;
+		background-position: 0 0 !important;
+		background-repeat: repeat !important;
+}
+
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  { 
+/* iPad mini in portrait & landscape STYLES GO HERE */
+
+body > div.wrapper > div > div > div.content_inner > div.full_width > div > section > div > div > div.left_handside_column.wpb_column.vc_column_container.vc_col-sm-3.vc_col-has-fill {
+
+		width: 45%;	
+}
+
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  { 
+/* iPad mini in landscape STYLES GO HERE */
+
+nav.main_menu>ul {
+    left: 0%;
+    position: relative;
+}
+
+nav.main_menu > ul > li > a {
+    font-size: 13px;
+
+}
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+/* iPad in portrait STYLES GO HERE */ 
+
+nav.main_menu>ul {
+    left: 0%;
+    position: relative;
+}
+
+nav.main_menu > ul > li > a {
+    font-size: 13px;
+
+}
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+/* iPhone 5 & 5S in portrait & landscape STYLES GO HERE */
+
+body > div.wrapper > div > div > div > div.full_width > div > section > div > div > div.left_handside_column.wpb_column.vc_column_container.vc_col-sm-3.vc_col-has-fill > div {
+		margin-top: 0px !important;
+		margin-left: 0px !important;
+		padding-top: 30px !important;
+		padding-right: 35px !important;
+		padding-bottom: 30px !important;
+		padding-left: 30px !important;
+		background-position: 0 0 !important;
+		background-repeat: repeat !important;
+}
+
+body > div.wrapper > div > header > div > div > div > div.header_inner_left > div.logo_wrapper > div > a > img.mobile {
+	
+		height:60%;
+
+}
+
+}
+
+
+/* Galaxy S5 portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+body > div.wrapper > div > div > div > div.full_width > div > section > div > div > div.left_handside_column.wpb_column.vc_column_container.vc_col-sm-3.vc_col-has-fill > div {
+		margin-top: 0px !important;
+		margin-left: 0px !important;
+		padding-top: 30px !important;
+		padding-right: 35px !important;
+		padding-bottom: 30px !important;
+		padding-left: 30px !important;
+		background-position: 0 0 !important;
+		background-repeat: repeat !important;
+}
+
+}
+
