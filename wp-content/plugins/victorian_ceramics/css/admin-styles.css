@@ -1,0 +1,148 @@
+
+
+.tilemainwpr {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.tilemainwpr .tilinrwpr
+{
+	width: 100%;
+	float: left;	
+} 
+.tilinrwpr .tilacrdrow
+{
+	width: 100%;
+	float: left;
+}
+.tilinrwpr .tilacrdrow.frst .tilacrcntn
+{
+	display: block;
+}
+.tilinrwpr .tilacrdrow h3 {
+    /* width: 96%; */
+    /* float: left; */
+    background: #fcfcfc;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    margin: 2px 30px 2px 20px;
+    color: #6c6c6c;
+    display: block;
+    cursor: pointer;
+}
+.tilacrdrow.active h3 {
+    color: #fff;
+    background: #54bd9c;
+    border: 1px solid #54bd9c;
+    
+}
+.tilinrwpr .tilacrdrow .tilacrcntn {
+    width: 92.7%;
+    display: none;
+    background: #fff;
+    margin: 0px 20px;
+    padding: 15px;
+}
+.tlsnglrowfullwidth {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.tlsnglclm {
+    float: left;
+    margin-right: 10px;
+}
+.tlsnglclm input {
+    height: 32px;
+    box-shadow: none;
+    font-size: 13px;
+}
+.tilinrsnglrow input.button.button-primary {
+    background: #54bd9c;
+    box-shadow: none;
+    border: none;
+    color: #ffff;
+    text-shadow: none;
+    height: 32px;
+    line-height: 22px;
+    padding: 5px 20px;
+    transition: 0.7s;	
+}
+.tilinrsnglrow input.button.button-primary:hover {
+	box-shadow: 0px 3px 7px #ccc;
+}
+.tilinrsnglrow {
+    width: 100%;
+    display: inline-block;
+}
+.sngltlwpr {
+    display: inline-block;
+    margin: 10px 15px 10px 5px;
+    position: relative;
+}
+.sngltl {
+    background: #585868;
+    /* display: inline-block; */
+    /* float: left; */
+    position: relative;
+}
+.sngltlwpr span {
+    position: absolute;
+    background: #fff;
+    z-index: 999;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    border-radius: 50px;
+    right: -8px;
+    box-shadow: 0px 0px 5px;
+    font-size: 10px;
+    top: -8px;
+    cursor: pointer; 
+    line-height: 17px; 
+} 		
+.sngltlwpr:first-child {
+    margin-left: 0px;
+}
+.tilinrsnglrow:first-child {
+    margin-bottom: 15px;
+}
+.designertiles .sngltl,
+.designertiles .sngltl img {
+    width: 70px;
+    height: 70px;
+}
+.invalid-feedback {
+    color: red;
+}
+
+.tabwpr li {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #fff;
+    cursor:pointer;
+}
+.tabwpr li a {
+    color: #746f6f;
+    padding: 6px 15px;
+    width: auto;
+    float: left;
+}
+.tabwpr li.active {
+    background: #54bd9c;
+    border: 1px solid #54bd9c;
+}
+.tabwpr li.active a {
+    color: #fff;
+}
+.tabinrsngl, .tabinrsnglsub {
+    display: none;
+}
+.tabinrsngl.active, .tabinrsnglsub.active {
+    display: block;
+}
+
+
+
+
+
