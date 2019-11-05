@@ -137,12 +137,12 @@ function vc_custom_editor_cb( $attr, $content=null )
 		if(!isset($_POST['width']))
 		{
 		?>
-		<script type="text/javascript">
+<script type="text/javascript">
 		 jQuery(window).load(function(){
 		 	jQuery('#myModal').modal('show');
 	      }); 
         </script>
-        <?php
+<?php
         }
 		$html .= '<div class="page-wrapper"><div class="page-auto-div">';
 		
