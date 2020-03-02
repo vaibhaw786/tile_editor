@@ -182,12 +182,12 @@ ul.floraldsgn {
 	height: 60px;
 }
 .dropped .grid_color13 {
-	width: 120px;
-	height: 30px;
+	width: 100px;
+	height: 25px;
 }
 .grid_color14 {
-	width: 110px;
-	height: 10px;
+	width: 100px;
+	height: 8.33px;
 }
 .plain_list.pattern_dropdown_1 .grid_color13, .plain_list.pattern_dropdown_1 .grid_color13 {
 	background: url(../img/rec_11/rec_M18.png);
@@ -3686,7 +3686,7 @@ width:120px;
 	left: 0px !important;
 }
 #vce_emailform, .tiles_popup{
-z-index: 99999;
+z-index: 999999;
 }
 .page-wrapper{
     overflow-x: scroll;

@@ -305,10 +305,10 @@ ul.nav.navbar-left li a:hover {
 }
 .grid_color2 {
 	width: 100px;
-	height: 60px;
+	height: 66.64px;
 }
 .grid_color3 {
-	width: 90px;
+	width: 100px;
 	height: 50px;
 }
 /*.grid_color4 {
@@ -321,7 +321,7 @@ ul.nav.navbar-left li a:hover {
 }
 .dropped .grid_color4 {
 	width: 100px;
-	height: 40px;
+	height: 33.33px;
 }
 /*.grid_color5 {
     width: 80px; 
@@ -333,7 +333,7 @@ ul.nav.navbar-left li a:hover {
 }
 .dropped .grid_color5 {
 	width: 100px;
-	height: 20px;
+	height: 16.66px;
 }
 .grid_color6 {
 	width: 30px; 
@@ -341,32 +341,32 @@ ul.nav.navbar-left li a:hover {
 	margin-top:30px;
 }
 .dropped .grid_color6 {
-	width: 20px; 
-	height: 20px;
+	width: 16.66px; 
+	height: 16.66px;
 }
 /*.grid_color7 {
     width: 60px;
     height: 60px;
 }*/
 .grid_color7 {
-	width: 80px;
-	height: 80px;
+	width: 66.66px;
+	height: 66.66px;
 }
 /*.grid_color8 {
     width: 60px;
     height: 45px;
 }*/
 .grid_color8 {
-	width: 80px;
-	height: 40px;
+	width: 66.66px;
+	height: 33.33px;
 }
 /*.grid_color9 {
     width: 45px;
     height: 45px;
 }*/
 .grid_color9 {
-	width: 60px;
-	height: 60px;
+	width:50px;
+	height: 50px;
 }
 .grid_color10 {
 	width: 100px;
@@ -382,7 +382,7 @@ ul.nav.navbar-left li a:hover {
 }
 .dropped .grid_color11 {
 	width: 100px;
-	height: 60px;
+	height: 50px;
 }
 /*.grid_color12 {
     width: 80px;
@@ -394,7 +394,7 @@ ul.nav.navbar-left li a:hover {
 }
 .dropped .grid_color12 {
 	width: 100px;
-	height: 40px;
+	height: 33.33px;
 }
 /*.white_grid_box {position: relative;
 }*/
