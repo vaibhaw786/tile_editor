@@ -154,12 +154,21 @@ ul.floraldsgn {
 	background-repeat: no-repeat;
 }
 .plain_list .grid_color13 {
-	width: 110px;
+	width: 120px;
 	height: 60px;
 }
 .plain_list .grid_color14 {
-	width: 110px;
+	width: 120px;
 	height: 60px;
+}
+.plain_list .grid_color5 {
+    width: 120px;
+    height: 60px;
+}
+.plain_list .grid_color6 {
+    width: 120px;
+    height: 30px;
+    margin-top: 16px;
 }
 .pattern_dropdown_9 .grid_color13 {
 	background: url(../img/flat_tile9/6x1_09.png);
@@ -179,15 +188,15 @@ ul.floraldsgn {
 }
 .grid_color13 {
 	width: 120px;
-	height: 60px;
+	height: 30px;
 }
 .dropped .grid_color13 {
-	width: 100px;
-	height: 25px;
+	width: 120px;
+	height: 30px;
 }
 .grid_color14 {
-	width: 100px;
-	height: 8.33px;
+	width: 120px;
+	height: 10px;
 }
 .plain_list.pattern_dropdown_1 .grid_color13, .plain_list.pattern_dropdown_1 .grid_color13 {
 	background: url(../img/rec_11/rec_M18.png);
@@ -3700,4 +3709,12 @@ z-index: 999999;
 .dropped.ui-draggable.ui-draggable-handle.vc_selected
 {
 	z-index: 100000 !important;
+}
+
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+}
+html, body {
+    -ms-overflow-style: none;
 }
